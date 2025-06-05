@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-purple px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <div class="logo-wrapper">
+          <img src="logo.png" alt="Logo" class="logo-img">
+        </div>
+      </a>
+      <nav class="navbar-nav ms-auto d-flex flex-row gap-3">
+        <a class="nav-link nav-white fw-bold" href="index.html">HOME</a>
+        <a class="nav-link nav-white fw-bold" href="portfolio.html">PORTFOLIO</a>
+        <a class="nav-link nav-white fw-bold" href="about.html">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="Hello!.png" alt="Hello Graphic" class="img-fluid mb-3 hero-hello">
+        <p class="text-purple fs-5">
+          It’s <strong>Azzumi Azzahro!</strong> a student majored in <strong>Multimedia Education</strong> based in Bandung. 
+          I’m interested in challenging myself to gain <strong>knowledge</strong> and developing my creativity in fun and 
+          <strong>creative designs</strong>. I consider myself as a <strong>hard worker</strong> and <strong>easy to adapt</strong>. 
+          I hope my abilities are able to contribute to the growth of your firm.
+        </p>
+        <a href="mailto:azzumi@example.com" class="btn btn-warning text-white fw-bold">HIRE ME!</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Azzumi.png" alt="Profile Photo" class="img-fluid rounded shadow hero-profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- Label Section -->
+  <section class="container my-5">
+    <img src="Experience.png" class="img-fluid rounded" alt="Experience">
+    <div class="scroll-container">
+      <div class="label-card"><div class="overlay"><p>RIMBAWANA</p></div><img src="Rimbawana.jpg" alt="Rimbawana"></div>
+      <div class="label-card"><div class="overlay"><p>HIMAPEDIA</p></div><img src="Himapedia.jpg" alt="Himapedia"></div>
+      <div class="label-card"><div class="overlay"><p>PRAMUKA</p></div><img src="Peci.jpg" alt="Pengawas"></div>
+      <div class="label-card"><div class="overlay"><p>RED</p></div><img src="PSDO.jpg" alt="PSDO"></div>
+    </div>
+  </section>
+
+  <!-- Message Box -->
+  <section class="contact-message-box py-5 px-4 bg-success-subtle">
+    <div class="container text-center">
+      <h2 class="text-purple mb-4">Send Me a Message!</h2>
+      <p class="mb-4">Have a question, thought, or just want to say hi?</p>
+      <form>
+        <div class="mb-3">
+          <textarea class="form-control message-textarea" rows="5" placeholder="Type your message here..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning text-white fw-bold">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <h4>Contact</h4>
+          <p>azzumiazzahro@upi.edu</p>
+          <p>+62 857 3338 0644</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Menu</h4>
+          <p>Home</p>
+          <p>Portfolio</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Social</h4>
+          <p><a href="https://instagram.com/azzumiazzahro_" target="_blank">@azzumiazzahro_</a></p>
+        </div>
+      </div>
+      <p class="text-center">&copy; 2025 Personal Website</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

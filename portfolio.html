@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-purple px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <div class="logo-wrapper">
+          <img src="logo.png" alt="Logo" class="logo-img">
+        </div>
+      </a>
+
+      <nav class="navbar-nav ms-auto d-flex flex-row gap-3">
+        <a class="nav-link nav-white fw-bold" href="index.html">HOME</a>
+        <a class="nav-link nav-white fw-bold" href="portfolio.html">PORTFOLIO</a>
+        <a class="nav-link nav-white fw-bold" href="about.html">ABOUT</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Cards Section -->
+  <section class="container my-5">
+    <h2 class="text-center text-purple mb-4">My Portfolio</h2>
+    <div class="row justify-content-center gap-4">
+
+      <!-- Photography Card -->
+      <a href="photography.html" class="col-md-4 text-decoration-none portfolio-card-wrapper">
+        <div class="card shadow portfolio-card h-100 animate-fade-up">
+          <img src="gian.jpg" class="card-img-top" alt="Photography">
+          <div class="card-body text-center">
+            <h5 class="card-title text-purple">Photography</h5>
+            <p class="card-text text-muted">A collection of my best photography work.</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- Ilustrasi Card -->
+      <a href="photography.html" class="col-md-4 text-decoration-none portfolio-card-wrapper">
+  <div class="card shadow portfolio-card h-100 animate-fade-up">
+    <img src="adegan 2 (1).png" class="card-img-top" alt="Photography">
+    <div class="card-body text-center">
+      <h5 class="card-title text-purple">Ilustrasi</h5>
+      <p class="card-text text-muted">A collection of my best project ilustrator work.</p>
+    </div>
+  </div>
+</a>
+
+
+    </div>
+  </section>
+
+</body>
+</html>
